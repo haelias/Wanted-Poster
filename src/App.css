@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.poster {
+position: absolute;
+}
+
+.userImg {
+position:absolute;
+top: 25%;
+left:128px;
+width:256px;
+
+}
+
+.userImg:hover {
+  mix-blend-mode:color-burn;
+}
+
+h1 {
+  position:absolute;
+  top:72%;
+  left:0;
+  /* background:red; */
+  width:501px;
+  text-align:center;
+  overflow:hidden; /*gotta prevent dat overflow*/
+}
